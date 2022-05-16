@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+table tr {
+  text-align: center;
+  color: white;
+}
+
+.imageTd {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.imageTd img {
+  margin-right: 5px;
+}
+#coin {
+  width: 50%;
+  margin: auto;
+  border-radius: 50px;
+  border: 1px solid gray;
+  margin-top: 15px;
+}
+#coin:focus {
+  box-shadow: none;
+}
